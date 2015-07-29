@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE3C91D21B68ACE20021237D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C91D11B68ACE20021237D /* main.m */; };
+		DE3C91D51B68ACE20021237D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C91D41B68ACE20021237D /* AppDelegate.m */; };
+		DE3C91D81B68ACE20021237D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C91D71B68ACE20021237D /* ViewController.m */; };
+		DE3C91DB1B68ACE20021237D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3C91D91B68ACE20021237D /* Main.storyboard */; };
+		DE3C91DD1B68ACE20021237D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3C91DC1B68ACE20021237D /* Images.xcassets */; };
+		DE3C91E01B68ACE20021237D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3C91DE1B68ACE20021237D /* LaunchScreen.xib */; };
+		DE3C91EC1B68ACE20021237D /* CireViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C91EB1B68ACE20021237D /* CireViewTests.m */; };
+		DE3C91FA1B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3C91F91B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.m */; };
+		DE3C92011B68B0C30021237D /* line_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DE3C91FF1B68B0C30021237D /* line_blue.png */; };
+		DE3C92021B68B0C30021237D /* arrow_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DE3C92001B68B0C30021237D /* arrow_red.png */; };
+		DE3C92041B68B24E0021237D /* spinner_right.png in Resources */ = {isa = PBXBuildFile; fileRef = DE3C92031B68B24E0021237D /* spinner_right.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE3C91E61B68ACE20021237D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3C91C41B68ACE20021237D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3C91CB1B68ACE20021237D;
+			remoteInfo = CireView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE3C91CC1B68ACE20021237D /* CireView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CireView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C91D01B68ACE20021237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3C91D11B68ACE20021237D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE3C91D31B68ACE20021237D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE3C91D41B68ACE20021237D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE3C91D61B68ACE20021237D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE3C91D71B68ACE20021237D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE3C91DA1B68ACE20021237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE3C91DC1B68ACE20021237D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE3C91DF1B68ACE20021237D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE3C91E51B68ACE20021237D /* CireViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CireViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C91EA1B68ACE20021237D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3C91EB1B68ACE20021237D /* CireViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CireViewTests.m; sourceTree = "<group>"; };
+		DE3C91F81B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		DE3C91F91B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		DE3C91FF1B68B0C30021237D /* line_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_blue.png; sourceTree = "<group>"; };
+		DE3C92001B68B0C30021237D /* arrow_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_red.png; sourceTree = "<group>"; };
+		DE3C92031B68B24E0021237D /* spinner_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinner_right.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE3C91C91B68ACE20021237D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C91E21B68ACE20021237D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE3C91C31B68ACE20021237D = {
+			isa = PBXGroup;
+			children = (
+				DE3C91CE1B68ACE20021237D /* CireView */,
+				DE3C91E81B68ACE20021237D /* CireViewTests */,
+				DE3C91CD1B68ACE20021237D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE3C91CD1B68ACE20021237D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C91CC1B68ACE20021237D /* CireView.app */,
+				DE3C91E51B68ACE20021237D /* CireViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE3C91CE1B68ACE20021237D /* CireView */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C92031B68B24E0021237D /* spinner_right.png */,
+				DE3C91FF1B68B0C30021237D /* line_blue.png */,
+				DE3C92001B68B0C30021237D /* arrow_red.png */,
+				DE3C91F71B68AFB10021237D /* KTOneFingerRotationGestureRecognizer */,
+				DE3C91D31B68ACE20021237D /* AppDelegate.h */,
+				DE3C91D41B68ACE20021237D /* AppDelegate.m */,
+				DE3C91D61B68ACE20021237D /* ViewController.h */,
+				DE3C91D71B68ACE20021237D /* ViewController.m */,
+				DE3C91D91B68ACE20021237D /* Main.storyboard */,
+				DE3C91DC1B68ACE20021237D /* Images.xcassets */,
+				DE3C91DE1B68ACE20021237D /* LaunchScreen.xib */,
+				DE3C91CF1B68ACE20021237D /* Supporting Files */,
+			);
+			path = CireView;
+			sourceTree = "<group>";
+		};
+		DE3C91CF1B68ACE20021237D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C91D01B68ACE20021237D /* Info.plist */,
+				DE3C91D11B68ACE20021237D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE3C91E81B68ACE20021237D /* CireViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C91EB1B68ACE20021237D /* CireViewTests.m */,
+				DE3C91E91B68ACE20021237D /* Supporting Files */,
+			);
+			path = CireViewTests;
+			sourceTree = "<group>";
+		};
+		DE3C91E91B68ACE20021237D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C91EA1B68ACE20021237D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE3C91F71B68AFB10021237D /* KTOneFingerRotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C91F81B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.h */,
+				DE3C91F91B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.m */,
+			);
+			path = KTOneFingerRotationGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE3C91CB1B68ACE20021237D /* CireView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3C91EF1B68ACE20021237D /* Build configuration list for PBXNativeTarget "CireView" */;
+			buildPhases = (
+				DE3C91C81B68ACE20021237D /* Sources */,
+				DE3C91C91B68ACE20021237D /* Frameworks */,
+				DE3C91CA1B68ACE20021237D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CireView;
+			productName = CireView;
+			productReference = DE3C91CC1B68ACE20021237D /* CireView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE3C91E41B68ACE20021237D /* CireViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3C91F21B68ACE20021237D /* Build configuration list for PBXNativeTarget "CireViewTests" */;
+			buildPhases = (
+				DE3C91E11B68ACE20021237D /* Sources */,
+				DE3C91E21B68ACE20021237D /* Frameworks */,
+				DE3C91E31B68ACE20021237D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3C91E71B68ACE20021237D /* PBXTargetDependency */,
+			);
+			name = CireViewTests;
+			productName = CireViewTests;
+			productReference = DE3C91E51B68ACE20021237D /* CireViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE3C91C41B68ACE20021237D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Surekam;
+				TargetAttributes = {
+					DE3C91CB1B68ACE20021237D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DE3C91E41B68ACE20021237D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DE3C91CB1B68ACE20021237D;
+					};
+				};
+			};
+			buildConfigurationList = DE3C91C71B68ACE20021237D /* Build configuration list for PBXProject "CireView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE3C91C31B68ACE20021237D;
+			productRefGroup = DE3C91CD1B68ACE20021237D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE3C91CB1B68ACE20021237D /* CireView */,
+				DE3C91E41B68ACE20021237D /* CireViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE3C91CA1B68ACE20021237D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3C92041B68B24E0021237D /* spinner_right.png in Resources */,
+				DE3C91DB1B68ACE20021237D /* Main.storyboard in Resources */,
+				DE3C91E01B68ACE20021237D /* LaunchScreen.xib in Resources */,
+				DE3C91DD1B68ACE20021237D /* Images.xcassets in Resources */,
+				DE3C92011B68B0C30021237D /* line_blue.png in Resources */,
+				DE3C92021B68B0C30021237D /* arrow_red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C91E31B68ACE20021237D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE3C91C81B68ACE20021237D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3C91FA1B68AFB10021237D /* KTOneFingerRotationGestureRecognizer.m in Sources */,
+				DE3C91D81B68ACE20021237D /* ViewController.m in Sources */,
+				DE3C91D51B68ACE20021237D /* AppDelegate.m in Sources */,
+				DE3C91D21B68ACE20021237D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C91E11B68ACE20021237D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3C91EC1B68ACE20021237D /* CireViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE3C91E71B68ACE20021237D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3C91CB1B68ACE20021237D /* CireView */;
+			targetProxy = DE3C91E61B68ACE20021237D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE3C91D91B68ACE20021237D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3C91DA1B68ACE20021237D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE3C91DE1B68ACE20021237D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3C91DF1B68ACE20021237D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE3C91ED1B68ACE20021237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE3C91EE1B68ACE20021237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE3C91F01B68ACE20021237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CireView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE3C91F11B68ACE20021237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CireView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE3C91F31B68ACE20021237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CireViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CireView.app/CireView";
+			};
+			name = Debug;
+		};
+		DE3C91F41B68ACE20021237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CireViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CireView.app/CireView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE3C91C71B68ACE20021237D /* Build configuration list for PBXProject "CireView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C91ED1B68ACE20021237D /* Debug */,
+				DE3C91EE1B68ACE20021237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3C91EF1B68ACE20021237D /* Build configuration list for PBXNativeTarget "CireView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C91F01B68ACE20021237D /* Debug */,
+				DE3C91F11B68ACE20021237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE3C91F21B68ACE20021237D /* Build configuration list for PBXNativeTarget "CireViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C91F31B68ACE20021237D /* Debug */,
+				DE3C91F41B68ACE20021237D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE3C91C41B68ACE20021237D /* Project object */;
+}
